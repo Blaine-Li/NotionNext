@@ -11,8 +11,8 @@ export const Footer = (props) => {
   const copyrightDate = parseInt(since) < currentYear ? since + '-' + currentYear : currentYear
 
   return <footer
-     className={`z-10 relative mt-6 flex-shrink-0 m-auto w-full text-gray-500 dark:text-gray-400 transition-all ${
-       !fullWidth ? 'max-w-2xl px-4' : 'px-4 md:px-24'
+   className={`z-10 relative mt-6 flex-shrink-0 m-auto w-full text-gray-500 dark:text-gray-400 transition-all ${
+      !fullWidth ? 'max-w-3xl px-4' : 'px-4 md:px-24'
      }`}
    >
      <DarkModeButton className='text-center py-4'/>
