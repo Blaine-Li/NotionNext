@@ -1,3 +1,5 @@
+import { Analytics } from "@vercel/analytics/next"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import Comment from '@/components/Comment'
 import Live2D from '@/components/Live2D'
 import replaceSearchResult from '@/components/Mark'
