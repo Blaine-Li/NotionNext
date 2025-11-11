@@ -60,10 +60,10 @@ const Catalog = ({ toc }) => {
   }
 
   return (
-    <div className='hidden lg:block absolute right-0 top-0 -mr-96 h-full'>
-      <div className='px-3 sticky top-32'>
+    <div className='hidden lg:block absolute right-0 top-0 -mr-64 h-full'>
+      <div className='px-2 sticky top-32'>
         <div
-          className='pl-10 mt-32 overflow-y-auto max-w-96  max-h-96 overscroll-none scroll-hidden'
+          className='pl-4 mt-16 overflow-y-auto max-w-80 max-h-96 overscroll-none scroll-hidden'
           ref={tRef}>
           <nav className='h-full text-black dark:text-gray-300'>
             {toc?.map(tocItem => {
