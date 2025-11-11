@@ -152,7 +152,7 @@ const NavBar = props => {
           isOpen={isOpen}
           type='vertical'
           className='fixed top-16 right-6'>
-          <div className='dark:border-black bg-white dark:bg-black rounded border p-2 text-sm'>
+          <div className='dark:border-black bg-white dark:bg-[#181818] rounded border p-2 text-sm'>
             {links?.map((link, index) => (
               <MenuItemCollapse
                 key={index}
